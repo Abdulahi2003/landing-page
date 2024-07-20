@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -37,11 +38,13 @@ a {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    max-width: 400px;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 400px;
 }
 .headerbody {
     display: flex;
@@ -50,4 +53,13 @@ a {
 
 img {
     max-height: 200px;
+    margin-left: 40px;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
 }
