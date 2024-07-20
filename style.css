@@ -63,3 +63,32 @@ button {
     border: none;
     border-radius: 8px;
 }
+
+.h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.boxes {
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 50px 200px 200px;
+    gap: 40px;
+    justify-content: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.s2 {
+    margin: 50px;
+    text-align: center;
+}
