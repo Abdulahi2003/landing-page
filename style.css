@@ -54,6 +54,8 @@ a {
 img {
     max-height: 200px;
     margin-left: 40px;
+    max-width: 200px;
+    border-radius: 12px;
 }
 
 button {
@@ -91,6 +93,7 @@ button {
 .s2 {
     margin: 50px;
     text-align: center;
+    width: 80%;
 }
 
 .s3 {
@@ -110,4 +113,25 @@ button {
     color: #1F2937;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.s4 {
+    padding: 54px 80px;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: #F9FAF8;
+    display: flex;
+    padding: 22px;
+    justify-content: space-around;
+}
+
+.calltoaction button{
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
 }
